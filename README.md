@@ -47,12 +47,12 @@ To implement this commit message format using Git hooks, I made this steps:
 4.  **Test the Hook:**
     Try making a commit with an invalid commit message format to ensure that the hook prevents it.
 
-        ![invalid commit message](./images/git_invalid_msg.png)
+    ![invalid commit message](./images/git_invalid_msg.png)
 
 5.  **Commit with Correct Format:**
     Use one of the specified commit types followed by a colon and a message (up to 50 characters) for valid commits.
 
-        ![valid commit message](./images/git_valid_msg.png)
+    ![valid commit message](./images/git_valid_msg.png)
 
 6.  **Push Changes to GitHub:**
     After testing the hook locally, I pushed the changes to the GitHub repository.
