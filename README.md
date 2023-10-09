@@ -26,6 +26,8 @@ To implement this commit message format using Git hooks, I made this steps:
     - Copy the `commit-msg.sample` file as `commit-msg` (remove the `.sample` extension).
     - Open the `commit-msg` file in a text editor and create the hook script.
 
+    <br>
+    
     ```bash
     #!/bin/sh
 
